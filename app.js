@@ -34,3 +34,12 @@ for(var title of boxTitle){
     title.style.color = 'white';
 }
 
+const eventTitle = document.getElementById('eventTitle')
+eventTitle.style.color = 'pink'
+eventTitle.style.textAlign = 'center'
+eventTitle.style.fontWeight='bold'
+
+const greenBtn = document.getElementById('green-btn')
+greenBtn.addEventListener('click',function() {
+    document.body.style.backgroundColor='green'
+})
